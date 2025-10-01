@@ -63,7 +63,7 @@ export default function App() {
       <TextInput
         style={styles.input}
         placeholder="Direccion"
-        value={nombre}
+        value={direccion}
         onChangeText={setDireccion}
       />
 
