@@ -12,7 +12,7 @@ export default function App() {
 
   const handleRegistro = () => {
 
-    if (!nombre.trim() || !correo.trim() || !password.trim() || !fechanac.trim() || !Direccion.trim()) {
+    if (!nombre.trim() || !correo.trim() || !password.trim() || !fechanac.trim() || !direccion.trim()) {
       Alert.alert('Error', 'Todos los campos son obligatorios.');
       return; 
     }
